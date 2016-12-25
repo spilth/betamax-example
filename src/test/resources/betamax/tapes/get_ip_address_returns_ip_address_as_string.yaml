@@ -1,0 +1,22 @@
+!tape
+name: get ip address returns ip address as string
+interactions:
+- recorded: 2016-12-25T20:32:57.354Z
+  request:
+    method: GET
+    uri: https://api.ipify.org/
+    headers:
+      Accept-Encoding: gzip,deflate
+      Connection: Keep-Alive
+      Content-Length: '0'
+      Host: api.ipify.org
+      User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_112)
+  response:
+    status: 200
+    headers:
+      Connection: keep-alive
+      Content-Length: '9'
+      Content-Type: text/plain
+      Date: Sun, 25 Dec 2016 20:32:56 GMT
+      Server: Cowboy
+    body: 42.0.0.42
